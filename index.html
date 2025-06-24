@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Cards with Images</title>
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+
+</head>
+
+<body>
+
+
+  <!-- <div class="w-full px-4 py-10 bg-[#F9FAFB]">
+    <div class="max-w-10xl mx-auto">
+      <div
+        class="flex flex-col md:flex-row bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 ease-in-out">
+
+
+        <div class="md:w-1/2 px-2 lg:px-4 py-8 flex flex-col justify-center animate-fadeInLeft">
+          <h2 class="verySecHeadings font-bold text-[#003D96] flex items-center gap-2 mb-4">
+            Message from Principal
+          </h2>
+          <p class="text-gray-700 leading-relaxed text-justify text-base md:text-lg max-h-[400px] overflow-auto">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, adipisci? Et velit tempore iste
+            similique beatae ipsum, adipisci quod dolorum modi repudiandae, quis illum doloremque fugiat consectetur hic
+            minus excepturi facilis magni consequatur amet a in consequuntur aspernatur! Alias nisi reprehenderit,
+            vitae, cum ullam reiciendis excepturi distinctio obcaecati consequuntur quos labore culpa ducimus! Commodi,
+            blanditiis! Eos facilis, officia aspernatur vel culpa tenetur delectus voluptas, eligendi eum adipisci non
+            rerum numquam, quia illo quos esse voluptatibus nam? Corporis minima ea tenetur? Accusantium soluta maxime
+            similique consectetur delectus doloribus facilis ea, nam rerum cupiditate quod vel tempora ipsum! Aliquid
+            fugiat iure recusandae.
+
+          </p>
+        </div>
+
+        <div class="md:w-1/2 p-2 h-auto flex flex-col items-center">
+          <img src="http://127.0.0.1:8000/storage/galleries/StragetigPlanning_20810904-5.png" alt="Principal Image"
+            class="w-full h-full object-contain max-h-[400px] animate-fadeInRight">
+
+          <p class="font-semibold">Mrs. Sarita Rawal, Principal</p>
+          <p>AMDA Institute of Health Sciences (AIHS), Butwal </p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+  <!-- Slider Section -->
+  <div class="bg-white py-10 px-4">
+    <h2 class="text-center text-2xl md:text-3xl font-bold mb-6">What our clients say</h2>
+
+    <div class="relative group max-w-7xl mx-auto overflow-hidden">
+
+      <!-- Slider Wrapper -->
+      <div id="sliderTestimonial" class="flex transition-transform duration-500 ease-in-out">
+        <!-- Slide 1 -->
+        <div class="testimonialSlidesXyz w-full md:w-1/3 p-4 shrink-0">
+          <div class="bg-[#f9f9f9] rounded-xl px-2 py-1 shadow hover:shadow-xl transition min-h-[200px] max-h-[200px]">
+            <div class="text-yellow-400 text-xl mb-2">★★★★★</div>
+            <p class="text-gray-700 text-sm mb-4 max-h-[90px] min-h-[90px] overflow-auto scroll-thin">
+              Love the design and customization of InstaShow 👍.
+              We've used various Instagram apps, but they would always mess up our look.
+            </p>
+            <div class="flex items-center gap-3">
+              <img src="https://randomuser.me/api/portraits/men/1.jpg" class="w-10 h-10 rounded-full" />
+              <div>
+                <p class="font-semibold text-sm">Name Here</p>
+                <p class="text-xs text-gray-500">Student 1</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="testimonialSlidesXyz w-full md:w-1/3 p-4 shrink-0">
+          <div class="bg-[#f9f9f9] rounded-xl px-2 py-1 shadow hover:shadow-xl transition min-h-[200px] max-h-[200px]">
+            <div class="text-yellow-400 text-xl mb-2">★★★★★</div>
+            <p class="text-gray-700 text-sm mb-4 max-h-[90px] min-h-[90px] overflow-auto scroll-thin">
+              Elfsight's plugin works well, and we’ve used it for years. I like the flexibility and control. Lorem
+              ipsum, dolor sit amet consectetur adipisicing elit. Officia aut dignissimos rem odio quod quidem
+              blanditiis exercitationem dolorem doloremque adipisci? Est tempora, quod necessitatibus dolor eos
+              temporibus perferendis assumenda sit!
+            </p>
+            <div class="flex items-center gap-3">
+              <img src="https://randomuser.me/api/portraits/men/2.jpg" class="w-10 h-10 rounded-full" />
+              <div>
+                <p class="font-semibold text-sm">Name Here</p>
+                <p class="text-xs text-gray-500">Student 2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="testimonialSlidesXyz w-full md:w-1/3 p-4 shrink-0">
+          <div class="bg-[#f9f9f9] rounded-xl px-2 py-1 shadow hover:shadow-xl transition min-h-[200px] max-h-[200px]">
+            <div class="text-yellow-400 text-xl mb-2">★★★★★</div>
+            <p class="text-gray-700 text-sm mb-4 max-h-[90px] min-h-[90px] overflow-auto scroll-thin">
+              This plugin works exactly as advertised. Best plugin I’ve ever used for Facebook!
+            </p>
+            <div class="flex items-center gap-3">
+              <img src="https://randomuser.me/api/portraits/women/3.jpg" class="w-10 h-10 rounded-full" />
+              <div>
+                <p class="font-semibold text-sm">Name Here</p>
+                <p class="text-xs text-gray-500">Student 3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="testimonialSlidesXyz w-full md:w-1/3 p-4 shrink-0">
+          <div class="bg-[#f9f9f9] rounded-xl px-2 py-1 shadow hover:shadow-xl transition min-h-[200px] max-h-[200px]">
+            <div class="text-yellow-400 text-xl mb-2">★★★★★</div>
+            <p class="text-gray-700 text-sm mb-4 max-h-[90px] min-h-[90px] overflow-auto scroll-thin">
+              This plugin works exactly as advertised. Best plugin I’ve ever used for Facebook!
+            </p>
+            <div class="flex items-center gap-3">
+              <img src="https://randomuser.me/api/portraits/women/3.jpg" class="w-10 h-10 rounded-full" />
+              <div>
+                <p class="font-semibold text-sm">Name Here</p>
+                <p class="text-xs text-gray-500">Student 4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arrows -->
+      <button id="prevBtnTestmonial"
+        class="absolute left-0 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-100 z-10">
+        ❮
+      </button>
+      <button id="neXtBtnTestimonial"
+        class="absolute right-0 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-100 z-10">
+        ❯
+      </button>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    try {
+      const testimonialSlider = document.getElementById('sliderTestimonial');
+      const neXtBtnTestimonial = document.getElementById('neXtBtnTestimonial');
+      const prevBtnTestmonial = document.getElementById('prevBtnTestmonial');
+      const testimonalSlidesSlide = document.querySelectorAll('.testimonialSlidesXyz');
+
+      const isMobileView = () => window.innerWidth < 768;
+      const itemsPerViewTestimonial = () => isMobileView() ? 1 : 3;
+      const totalSlides = testimonalSlidesSlide.length;
+
+      let slideIndexTestimonalo = 0;
+      let autoSlide;
+
+      function updateSlideTesyimonila() {
+        const slideWidth = testimonialSlider.offsetWidth / itemsPerViewTestimonial();
+        testimonialSlider.style.transform = `translateX(-${slideWidth * slideIndexTestimonalo}px)`;
+      }
+
+      function nextSlideTestimonalX() {
+        slideIndexTestimonalo++;
+        const maxIndex = totalSlides - itemsPerViewTestimonial();
+        if (slideIndexTestimonalo > maxIndex) {
+          slideIndexTestimonalo = 0;
+        }
+        updateSlideTesyimonila();
+      }
+
+      function prevSlide() {
+        slideIndexTestimonalo--;
+        const maxIndex = totalSlides - itemsPerViewTestimonial();
+        if (slideIndexTestimonalo < 0) {
+          slideIndexTestimonalo = maxIndex;
+        }
+        updateSlideTesyimonila();
+      }
+
+      function startAutoSlideTestimonali() {
+        stopAutoSlide(); // clear first
+        autoSlide = setInterval(() => {
+          nextSlideTestimonalX();
+        }, 3000);
+      }
+
+      function stopAutoSlide() {
+        clearInterval(autoSlide);
+      }
+
+      function resetAutoSlide() {
+        stopAutoSlide();
+        startAutoSlideTestimonali();
+      }
+
+      // Events
+      neXtBtnTestimonial.addEventListener('click', () => {
+        nextSlideTestimonalX();
+        resetAutoSlide();
+      });
+
+      prevBtnTestmonial.addEventListener('click', () => {
+        prevSlide();
+        resetAutoSlide();
+      });
+
+      // Pause auto-slide on entire wrapper hover
+      testimonialSlider.parentElement.addEventListener('mouseenter', stopAutoSlide);
+      testimonialSlider.parentElement.addEventListener('mouseleave', startAutoSlideTestimonali);
+
+      // Pause auto-slide on individual card hover
+      testimonalSlidesSlide.forEach(slide => {
+        slide.addEventListener('mouseenter', stopAutoSlide);
+        slide.addEventListener('mouseleave', startAutoSlideTestimonali);
+      });
+
+      // Responsive fix
+      window.addEventListener('resize', () => {
+        updateSlideTesyimonila();
+      });
+
+      // Init
+      startAutoSlideTestimonali();
+      updateSlideTesyimonila();
+
+    } catch (error) {
+
+    }
+
+  </script>
+
+
+
+</body>
+
+</html>
